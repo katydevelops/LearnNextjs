@@ -1,0 +1,12 @@
+Client-Side Data fetching
+
+PROS 
+    DYNAMIC DATA UPDATES
+        - Client-side fetching allows data to be updated dynamically without reloading the page. This is great for interactive applications where the data might change frequently - like chat apps and dashboards
+
+    REDUCED INITIAL LOAD TIME
+        - The initial page load might be faster because the data is fetched after the page is rendered, leading to a quicker first paint
+
+    USER-SPECIFIC DATA
+        - Client-side fetching is useful when you need to fetch data that is specific to the user's session - like personalized content that changes based on the users interactions
+    

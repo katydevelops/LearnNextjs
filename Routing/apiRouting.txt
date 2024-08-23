@@ -1,0 +1,11 @@
+API Routes (App Directory)
+
+API routes allow you to create endpoints to handle server-side logic and interact with databases or external APIs. API routes are typically used for backend operations, such as handling form submissions or fetching data that the frontend components need.
+
+With Next.js's new App Directory, routing and data fetching are more integrated with React Server Components. The app directory structure is designed to work seamlessly with server-side logic and React's new features.
+
+To create API routes:
+    - use the "app/api" folder structure
+    - inside this API folder, create a relevant subdirectory name of your choice
+    - then inside, create the "route.tsx" route file 
+        **** this "route" file name matters! This file naming convention will tell Next.js that this file is defined as an API route 
