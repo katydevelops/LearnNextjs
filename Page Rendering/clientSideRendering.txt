@@ -5,3 +5,11 @@ Traditional React components are rendered on the client side in the browser.
     The browser initially receives a minimal HTML page (usually just a shell with some Javascript links). 
 
     Server components allow you to build part of your app's UI on the server - this is super powerful because it lets you take advantage of server-side benefits like fetching data directly from the source, keeping sensitive information secure and reducing the load on the client's browser.
+
+    
+    PROs of Server Components:
+    - Fewer Network Requests: when you fetch data on the server, you can grab everything you need in one go - you app doesn't need to make multiple trips between the client and server (aka waterfalls) - this speeds things up!
+
+    - Security: By fetching data on the server, you keep sensitive info like API keys and access tokens hidden. If you were to do this on the client side, there's a risk someone could intercept those details. Servers typically use secure protocols like SSH and VPNs. Servers are also typically behind firewalls and network security measures making it harder for hackers to reach them whereas clients are exposed to the internet. 
+
+    - Reduced Latency: especially for server and databases in the same or close regions. The closer the server and database are to each other, the quicker the data can transmit over physical infrastructure like wires and fiber optic cables.
