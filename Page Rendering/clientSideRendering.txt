@@ -1,0 +1,7 @@
+Client Side Page Rendering (CSR )
+
+Traditional React components are rendered on the client side in the browser. 
+
+    The browser initially receives a minimal HTML page (usually just a shell with some Javascript links). 
+
+    Server components allow you to build part of your app's UI on the server - this is super powerful because it lets you take advantage of server-side benefits like fetching data directly from the source, keeping sensitive information secure and reducing the load on the client's browser.
