@@ -2,6 +2,8 @@ Server Side Rendering
 
     Server components allow you to build part of your app's UI on the server - this is super powerful because it lets you take advantage of server-side benefits like fetching data directly from the source, keeping sensitive information secure and reducing the load on the client's browser.
 
+    SSR is great for server side logic such as database queries, business logic, data processing and authentication/authorization.
+
     When you visit an SSR page, the server runs the component on the server, generates the HTML and sends it to the client. The browser receives the fully rendered HTML and displays it immediately which is why SSR can feel faster for the user.
 
     

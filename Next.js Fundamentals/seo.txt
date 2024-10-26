@@ -1,0 +1,9 @@
+How SEO Works
+
+There are four main pillars of SEO:
+
+1. Technical SEO
+    Ensures your website is crawlable and indexable by search engines. It's equivalent to the foundation of a house - all other SEO must be built upon good technical SEO first or the plan will not be effective.
+        - Search engines must easily access site
+        - Pages must load quickly and be mobile-friendly
+        - Structure like URLs, routing, etc must be neat and easy to navigate
