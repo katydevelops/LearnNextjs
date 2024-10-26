@@ -8,8 +8,29 @@ There are four main pillars of SEO:
         - Pages must load quickly and be mobile-friendly
         - Structure like URLs, routing, etc must be neat and easy to navigate
 
+        Actionable Steps:
+            - Use Google Search Console: Add your site and submit an XML sitemap to help Google crawl your Pages
+
+            - Check for Crawl Errors: Fix any errors in Google Search Console such  as 404 Not Found or blocked resource issues 
+
+            - Improve page speed via tools like Google PageSpeed Insights or GTMetrix. Compress images, minify CSS/JS files and enable browser caching
+
+            - Use HTTPS and ensure your site is secure
+
+            - Make it mobile friendly through the use of responsive design and mobile-first approach to ensure your site works well on phones/tablets.
+
+
+
 2. On-Page SEO
     This focuses on optimizing content and ensuring your page targets specfic keywords or topics.
         - Keywords: the phrases people search for on search engines
         - Meta Titles and Descriptions: appear in search results and affect click-through rate
         - Content Quality: content must be valuable, relevant and easy to read
+
+3. Off-Page SEO
+    This builds your websites's authority through external factors, mainly backlinks from other reputable sites
+        - Backlinks: links from other websites to yours to signal trustworthiness
+        - Social Signals: shares and mentions on social media platforms
+
+5. User Experience
+    Google prioritizes websites that offer the best experience to visitors - it measures this through Core Web Vitals like site speed, mobile usability and content layout stability
