@@ -7,3 +7,9 @@ There are four main pillars of SEO:
         - Search engines must easily access site
         - Pages must load quickly and be mobile-friendly
         - Structure like URLs, routing, etc must be neat and easy to navigate
+
+2. On-Page SEO
+    This focuses on optimizing content and ensuring your page targets specfic keywords or topics.
+        - Keywords: the phrases people search for on search engines
+        - Meta Titles and Descriptions: appear in search results and affect click-through rate
+        - Content Quality: content must be valuable, relevant and easy to read
