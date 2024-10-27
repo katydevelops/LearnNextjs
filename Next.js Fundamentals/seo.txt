@@ -104,3 +104,11 @@ There are four main pillars of SEO:
         - Monitor Bounce Rate and Dwell Time - use Google Analytics to understand how long users stay on your site - if users leave quickly, revise your content to make it more engaging
 
         - Add structured Data (schema): use schema markup (e.g. FAQ schema to help Google understand your content better and earn rich results)
+
+
+Pro-Tips for Long-Term SEO Success
+    - Update old content periodically - Google rewards, fresh relevant information
+    - Create cluster groups of related content (i.e. one primary page with related blog posts linking back to it)
+    - Use tools like Ahrefs and SEMrush to study what keywords and backlinks your competition is targeting
+    - Regularly check Google Analytics and search console to see what's working and where improvements are needed
+    - Be patient as SEO takes about 3-6 months to see noticeable improvements
