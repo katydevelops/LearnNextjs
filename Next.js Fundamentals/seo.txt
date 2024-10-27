@@ -57,3 +57,36 @@ There are four main pillars of SEO:
 
 5. User Experience
     Google prioritizes websites that offer the best experience to visitors - it measures this through Core Web Vitals like site speed, mobile usability and content layout stability
+
+    Actionable Steps:
+        - Speed up your website through eliminating unused JavaScript and implementing things like lazy loading
+
+        - Core Web Vitals Optimization: focus on Largest Contentful Paint (LCP), First Input Delay (FID) and Cumulative Layout Shift (CLS)
+
+            LCP: Largest Contentful Paint - measures the time it takes for the main content of a webpage to load and become visible to the user; focuses on the largest content element visible within the viewport (such as images, videos, headings etc 
+
+                Good LCP: 2.5 seconds or less
+                Needs Improvement LCP: 2.5 to 4 seconds
+                Poor: above 4 seconds
+
+                Optimization techniques for LCP are to compress images, use lazy loading, leverage browser caching and CDNs, prioritizing critical CSS and JS
+            
+            FID: First Input Delay - measures the time between when a user interacts with your website and when the browser responds to that interaction; FID assesses the responsiveness of page.
+
+                Good FID: 100 ms or less
+                Needs Improvement FID: 100 - 300 ms
+                Poor FID: above 300 ms
+
+            Optimization techniques include minimizing JS execution time, breaking down long tasks into smaller ones, use code splitting and lazy loading and optimizing 3rd party scripts
+
+            (Code splitting is a technique to improve the performance and loading time of a web app by dividing the code into smaller, manageable chunks. This approach allows you to load only the necessary code for the current page or feature rather than loading the entire application code base at once
+            
+            Code Splitting Techniques:
+            1. Dynamic imports - load modules or components on demand using import() statements
+
+            2. Lazy Loading - load non-critical resources/components only when needed 
+
+            3. Route-Based Splitting: split code based on application routes/pages
+            
+            4. Component-Based Splitting: split code into smaller components or modules
+            )
