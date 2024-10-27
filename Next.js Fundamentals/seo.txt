@@ -22,10 +22,22 @@ There are four main pillars of SEO:
 
 
 2. On-Page SEO
-    This focuses on optimizing content and ensuring your page targets specfic keywords or topics.
+    This focuses on optimizing content and ensuring your page targets specific keywords or topics.
         - Keywords: the phrases people search for on search engines
         - Meta Titles and Descriptions: appear in search results and affect click-through rate
         - Content Quality: content must be valuable, relevant and easy to read
+
+        Actionable Steps:
+            - Do keyword research through tools like Google Keyword Planner, Ahrefs or Ubersuggest. The goal is to find keywords with good search volume and low competition.
+
+            - Optimize Title Tags and Meta Descriptions: Keep titles under 60 characters and include the main keywords. For meta descriptions, provide a concise summary with the keyword (under 160 characters)
+
+            - Use headings properly: Use H1 for headings and H2 and H3 for subtopics etc; keep the structure logical (don't skip heading levels)
+
+            - Optimize images through compressing and add alt text to every image
+
+            - Add internal links between your pages (from blog post to your services page) - it helps Google understand the structure of your site
+
 
 3. Off-Page SEO
     This builds your websites's authority through external factors, mainly backlinks from other reputable sites
