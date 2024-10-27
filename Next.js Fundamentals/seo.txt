@@ -79,14 +79,28 @@ There are four main pillars of SEO:
 
             Optimization techniques include minimizing JS execution time, breaking down long tasks into smaller ones, use code splitting and lazy loading and optimizing 3rd party scripts
 
-            (Code splitting is a technique to improve the performance and loading time of a web app by dividing the code into smaller, manageable chunks. This approach allows you to load only the necessary code for the current page or feature rather than loading the entire application code base at once
-            
-            Code Splitting Techniques:
-            1. Dynamic imports - load modules or components on demand using import() statements
+                (Code splitting is a technique to improve the performance and loading time of a web app by dividing the code into smaller, manageable chunks. This approach allows you to load only the necessary code for the current page or feature rather than loading the entire application code base at once
+                
+                Code Splitting Techniques:
+                1. Dynamic imports - load modules or components on demand using import() statements
 
-            2. Lazy Loading - load non-critical resources/components only when needed 
+                2. Lazy Loading - load non-critical resources/components only when needed 
 
-            3. Route-Based Splitting: split code based on application routes/pages
-            
-            4. Component-Based Splitting: split code into smaller components or modules
-            )
+                3. Route-Based Splitting: split code based on application routes/pages
+                
+                4. Component-Based Splitting: split code into smaller components or modules
+                )
+
+            CLS: Cumulative Layout Shift - measures the stability of your webpage's layout as it loads; CLS calculates the total amount of layout shift that occurs between the page starts loading 
+
+                Good CLS: 0.1 or less 
+                Needs Improvement CLS: 0.1 or 0.25 
+                Poor CLS: above 0.25 
+
+                Optimization techniques: reserve space for dynamic content, avoid inserting content above existing content, use aspect ratio boxes for images and videos, avoid using tables for layouts
+
+        - User Clear CTAs - help users find what they need by placing call-to-action buttons and links strategically
+
+        - Monitor Bounce Rate and Dwell Time - use Google Analytics to understand how long users stay on your site - if users leave quickly, revise your content to make it more engaging
+
+        - Add structured Data (schema): use schema markup (e.g. FAQ schema to help Google understand your content better and earn rich results)
