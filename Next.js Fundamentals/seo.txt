@@ -44,5 +44,16 @@ There are four main pillars of SEO:
         - Backlinks: links from other websites to yours to signal trustworthiness
         - Social Signals: shares and mentions on social media platforms
 
+        Actionable Steps:
+            - Guest Blogging: write posts for other relevant websites in exchance for a backlink to your site
+
+            - Get Listed in Directories: submit your site to business directories (such as Google My Business)
+
+            - Monitor Your Backlinks: use tools like Ahrefs and SEMrush to see who's linking to you and disavow bad links
+
+            - Social Media Engagement: share your content across social media platforms
+
+            - Outreach Campaigns: email websites with similar content asking them to link to your posts.
+
 5. User Experience
     Google prioritizes websites that offer the best experience to visitors - it measures this through Core Web Vitals like site speed, mobile usability and content layout stability
