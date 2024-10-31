@@ -1,0 +1,9 @@
+React Server Components in Next.js
+
+RSC are a way to allow parts of a React app to be rendered on the server. When user requests a page, the server processes these components, sends the HTML to the client, and then hydrates any interactive components as needed.
+
+With RSCs, you can separate non-interactive parts of an app from interactive components, only sending what is necessary to the client. This improves load times and reduces the amount of JS your browser has to process.
+
+The benefits of Reach Server Components are: better performance through reducing the amount of JS that needs to be sent to the client, optimized data fetching as RSC can fetch data directly from a database or API without exposing any credentials or adding any additional API layers and SEO-friendliness. 
+
+In Next.js - components in the app directory are Server Components by default - this means Next.js will automatically render them on the sever unless you specify otherwise. Server components an use async/await directly which wouldn't be possible in a client component. 
