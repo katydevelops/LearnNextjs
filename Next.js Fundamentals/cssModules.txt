@@ -1,0 +1,6 @@
+CSS Modules in Next JS
+
+CSS Modules is a CSS file bundling and scope isolation technique that allows you to write CSS code that is scoped for a specific JS module. This means that CSS classes and identifiers are automatically generated and scoped to the specific component or module which eliminates any potential global CSS conflicts.
+
+Next.js provides built-in support for CSS Modules. When you create a CSS file with the same name as your JS/TSX file, but with a module.css extension, Next.js will automatically enable CSS Modules for that file.
+
