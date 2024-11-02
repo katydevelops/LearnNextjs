@@ -1,0 +1,7 @@
+Next.js offers three main ways to fetch data:
+
+1. getStaticProps: fetched data at build time; ideal for pages that don't need to be updated frequently
+
+2. getServerSideProps: fetched data at each request; ideal for pages that need fresh data on every visit
+
+3. Client-Side Fetching: fetch data after the initial page load; ideal for user-interactive elements where data doesn't need to be rendered on the server (i.e. fetching comments or search results)
