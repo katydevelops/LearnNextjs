@@ -15,3 +15,15 @@ RSCs allow you to render components entirely on the server - this approach reduc
 RSCs are different than traditional SSR like Next.js or custom Express setup as these methods render the whole page on the server (including both interactive and non-interactive parts) then hydrates the page on the client so it becomes fully interactive. Hydration requires loading the JS on the client to make that page interactive after it loads so it often increases the bundle size compared to the RSC alone
 
 RSCs require a backend environment to render the components and fetch data, which typically involves having a Node.js server running. Frameworks like Next.js provide an environment where both RSCs and traditional SSR/SSG method coexist seamlessly. Without Next.js you would need to set up a server environment like Express or a custom Node server if you want to use RSCs in a standard React app.
+
+Next.js supports multiple types of rendering, not just RSC:
+    - Server-Side Rendering (SSR): each request is rendered on the server before being sent to the client, making it ideal for pages that need frequently updated data
+        use getServerSideProps for SSR
+
+    - Static Site Generation (SSG): pages are pre-rendered at build time, serving as static files. This is great for pages with content that rarely changes. 
+        use getStaticProps for SSG
+
+    - Incremental Static Regeneration (ISR): allow static pages to be updated periodically without a full rebuild, combining the benefits of SSG with dynamic content capabilities. 
+        use getStaticPaths for dynamic SSG and ISR
+
+    - Client-Side Rendering (CSR): for highly interactive parts of the app, you can render components fully on the client side.
