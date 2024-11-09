@@ -10,3 +10,8 @@ The benefits of Reach Server Components are: better performance through reducing
 
 In Next.js - components in the app directory are Server Components by default - this means Next.js will automatically render them on the sever unless you specify otherwise. Server components can use async/await directly which wouldn't be possible in a client component. 
 
+RSCs allow you to render components entirely on the server - this approach reduces the JS that needs to be loaded on the client as RSCs are never sent to the client as JavaScript. They work best with non-interactive components aka those that don't need client-side state or lifecycle hooks like useState and useEffect.
+
+RSCs are different than traditional SSR like Next.js or custom Express setup as these methods render the whole page on the server (including both interactive and non-interactive parts) then hydrates the page on the client so it becomes fully interactive. Hydration requires loading the JS on the client to make that page interactive after it loads so it often increases the bundle size compared to the RSC alone
+
+RSCs require a backend environment to render the components and fetch data, which typically involves having a Node.js server running. Frameworks like Next.js provide an environment where both RSCs and traditional SSR/SSG method coexist seamlessly. Without Next.js you would need to set up a server environment like Express or a custom Node server if you want to use RSCs in a standard React app.
