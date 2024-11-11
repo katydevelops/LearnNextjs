@@ -30,6 +30,5 @@ Next.js supports multiple types of rendering, not just RSC:
 
     - Client-Side Rendering (CSR): for highly interactive parts of the app, you can render components fully on the client side. It’s useful for highly interactive sections of an app or for pages where data doesn’t need to be server-rendered for SEO.
 
-
     In Next.js, you can mix Server and Client Components within the same app, making it possible to render non-interactive content on the server while keeping interactive content on the client. This gives you control over performance by optimizing when and where JavaScript is loaded.
 
