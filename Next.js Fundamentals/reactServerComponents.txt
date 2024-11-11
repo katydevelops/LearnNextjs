@@ -20,10 +20,15 @@ Next.js supports multiple types of rendering, not just RSC:
     - Server-Side Rendering (SSR): each request is rendered on the server before being sent to the client, making it ideal for pages that need frequently updated data
         use getServerSideProps for SSR
 
-    - Static Site Generation (SSG): pages are pre-rendered at build time, serving as static files. This is great for pages with content that rarely changes. 
+    - Static Site Generation (SSG): pages are pre-rendered at build time, serving as static files. This is great for pages with content that rarely changes. SSG is perfect for content that doesn’t change often, such as blog posts, marketing pages, or documentation.
+
         use getStaticProps for SSG
 
-    - Incremental Static Regeneration (ISR): allow static pages to be updated periodically without a full rebuild, combining the benefits of SSG with dynamic content capabilities. 
+    - Incremental Static Regeneration (ISR): allow static pages to be updated periodically without a full rebuild, combining the benefits of SSG with dynamic content capabilities. ISR is great for pages that mostly remain static but need occasional updates, like product catalogs or news pages.
+
         use getStaticPaths for dynamic SSG and ISR
 
     - Client-Side Rendering (CSR): for highly interactive parts of the app, you can render components fully on the client side.
+
+    In Next.js, you can mix Server and Client Components within the same app, making it possible to render non-interactive content on the server while keeping interactive content on the client. This gives you control over performance by optimizing when and where JavaScript is loaded.
+
