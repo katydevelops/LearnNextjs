@@ -13,6 +13,20 @@ Next.js offers three main ways to fetch data:
             }
         ]
 
+
+        Dynamic routes with getStaticPaths: when using getStaticProps with dynamic routes, you also need getStaticPaths to specify which paths to pre-render,
+
+        export async function getStaticPaths() {
+            const res = await fetch('https://api.example.com/blog');
+            const posts = await res.json();
+
+            const paths = posts.map(((post) => {
+                params: {id: post.id.toString()},
+            }));
+
+            return { paths, fallback: false };
+        }
+
 2. getServerSideProps: fetched data at each request; ideal for pages that need fresh data on every visit
 
 3. Client-Side Fetching: fetch data after the initial page load; ideal for user-interactive elements where data doesn't need to be rendered on the server (i.e. fetching comments or search results)
