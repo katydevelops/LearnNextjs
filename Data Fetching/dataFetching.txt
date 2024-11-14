@@ -29,4 +29,10 @@ Next.js offers three main ways to fetch data:
 
 2. getServerSideProps: fetched data at each request; ideal for pages that need fresh data on every visit
 
+        Server-Side Rendering with getServerSideProps
+        What It Does: getServerSideProps runs on every request, fetching data on the server before rendering and sending it to the client.
+        Use Cases: Best for pages that need to show the latest data on every request, like dashboards, news feeds, and user-specific pages.
+        SEO Benefits: Since content is pre-rendered on the server, it’s also SEO-friendly.
+
+
 3. Client-Side Fetching: fetch data after the initial page load; ideal for user-interactive elements where data doesn't need to be rendered on the server (i.e. fetching comments or search results)
