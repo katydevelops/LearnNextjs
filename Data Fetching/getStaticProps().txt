@@ -1,0 +1,16 @@
+getStaticProps()
+
+The purpose of getStaticProps() is to fetch data during the build process and to pre-render a specific page (not a dynamic route) with static content. 
+
+Deals with fetchign content for a specific page - "what to render on THIS page"
+Example uses:
+    - Pre-render a blog homepage with a list of posts
+    - Pre-render a single "About" page 
+
+getStaticProps should return an object containing either 'props', 'redirect' or 'noFound' and be followed by an optional revalidate property.
+
+    props - props object is a key value pair where each valie is received by the page component - it should be a SERIALIZABLE OBJECT so thta any props that are passed in can be serialized with JSON.stringify
+
+    revalidate - revalidate property is the amount in seconds after which a page re-generation can occur (defaults to    false or no revalidation)
+
+    notFound - the notFound boolean allows the page to return a 404 status/page - with notFound: true, the page will return a 404 even if there was a successfully generated page before - this is meant to support use cases like user-generated content getting removed by it's author
