@@ -8,8 +8,6 @@ styles folder - centeralizes global CSS files and reusable style modules
 environmental config files - stores environment variables like API keys; exclude from .gitignore
 public folder - stores static assets like images, fonts and icons that don't require processing by Webpack
     - public folder items are serverd as is directly to the browser without modification; Wepback doesn't optimize or transform these files
-assets folder - since public is not processed by webpack, large imagse that need to be compressed should be put in 
-            an assets folder and referenced with Next.js's <Image> component for optimization
 pages folder - older process used for handling routing in Pages Router (legacy system before App directory) 
 
 
