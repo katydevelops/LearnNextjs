@@ -1,0 +1,7 @@
+generateStaticParams()
+
+- the modern App router version of getStaticPaths (which was used in the legacy page router version)
+
+GOAL: tell Next.js which dynamic pages should be generated at build time
+
+You'll use this anything you're worker with dynamic routes like /blog/[slug] and want to pre-render some or all of the pages at build tiem using a technique like SSG
